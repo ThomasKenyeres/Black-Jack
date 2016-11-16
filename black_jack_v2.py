@@ -16,12 +16,11 @@ host_win = 0
 host_coins = 0
 
 
-
 def PrintCardsAndSum(person, cards, sum):
     if person == "user":
-        print("YOUR CARDS:                              ")
+        print("YOUR CARDS: " + MultipleChars.PrintSpace(50))
     if person == "host":
-        print("MY CARDS:                                ")
+        print("MY CARDS: " + MultipleChars.PrintSpace(50))
 
     card_objs = []
 
